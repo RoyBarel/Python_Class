@@ -1,0 +1,486 @@
+    1  sudo su 
+    2  df -h
+    3  lsblk 
+    4  clear
+    5  l
+    6  sudo su 
+    7  su
+    8  df -h
+    9  sudo su 
+   10  su
+   11  sudo su
+   12  touch --help
+   13  ls / -l
+   14  touch / *
+   15  sudo touch / *
+   16  ls / -l
+   17  man
+   18  man *
+   19  --help
+   20  man --help
+   21  *
+   22  clear
+   23  cd /bin/
+   24  ls
+   25  ls _nl
+   26  ls | nl
+   27  ls /sbin/
+   28  ls /sbin/ | nl
+   29  cd -
+   30  file
+   31  file script
+   32  touch script
+   33  gedit script 
+   34  pwd
+   35  cd /etc
+   36  cd ~
+   37  cd /boot/grub | wc
+   38  cd /boot/grub > w
+   39  wc w
+   40  ls
+   41  cd /boot/grub
+   42  cd ..
+   43  cd /
+   44  ls
+   45  ls -l
+   46  ls /etc/
+   47  ls /etc/ | nl
+   48  ls /bin/ /sbin/
+   49  ls /bin/ /sbin/ |nl
+   50  ls /sbin/ |nl
+   51  ls /bin/ |nl
+   52  ls /bin/ /sbin/ |nl
+   53  ls /bin/ /sbin/ 
+   54  ls !
+   55  ls 
+   56  ls ~
+   57  ls ~ -a
+   58  ls /boot/
+   59  ls /boot/ --help
+   60  man ls
+   61  ls /boot/ -h
+   62  ls /boot/ 
+   63  ls /boot/ -h
+   64  ls /boot/ 
+   65  ls /boot/ -h
+   66  ls /boot/ 
+   67  ls /boot/ -h
+   68  ls /boot/ 
+   69  ls -h /boot/ 
+   70  ls /boot/ 
+   71  ls --h /boot/ 
+   72  ls -h /boot/ 
+   73  ls -l /boot/ 
+   74  ls -hl /boot/ 
+   75  ls -l /boot/ 
+   76  ls -hl /boot/ 
+   77  ls -l /boot/ 
+   78  ls -hl /boot/ 
+   79  ls -l /boot/ 
+   80  ls -hl /boot/ 
+   81  ls -l /boot/ 
+   82  ls -hl /boot/ 
+   83  clear
+   84  mkdir ~/testdir
+   85  cd /etc/
+   86  cd ~
+   87  pwd
+   88  cd /etc/
+   89  clear
+   90  mkdir newdir
+   91  mkdir ~/newdir
+   92  mkdir ~/dir1/dir2/dir3
+   93  mkdir -p ~/dir1/dir2/dir3
+   94  find testdi
+   95  find testdir
+   96  rm -rf ~/testdir/
+   97  clear
+   98  man pushd
+   99  pushd 
+  100  pushd --help
+  101  man pushd
+  102  man bash
+  103  clear
+  104  via
+  105  vi
+  106  ls /etc/shadow
+  107  cat /etc/shadow
+  108  cat /etc/passwd
+  109  cat /etc/passwd | cut -d":" -f1
+  110  cat /etc/passwd
+  111  firefox
+  112  clear
+  113  su -
+  114  cat /etc/passwd | grep bash
+  115  clear
+  116  id
+  117  clear
+  118  wheel
+  119  wheelclea
+  120  r
+  121  clear
+  122  visudo
+  123  su -
+  124  userpasswd 1
+  125  usermod ?
+  126  usermod --help
+  127  sudo
+  128  su -
+  129  sudo sudo
+  130  su -
+  131  su root
+  132  passwd serena --help
+  133  passwd serena 
+  134  sudo passwd serena 
+  135  clear
+  136  mkdir ~/permissions
+  137  cd ~/permissions
+  138  touch test
+  139  ls
+  140  ls -l
+  141  ch root
+  142  c root
+  143  ch
+  144  su root
+  145  cp /etc/hosts ~/permissions/
+  146  ls -l
+  147  cat hosts 
+  148  clear
+  149  su root
+  150  ls
+  151  ls -l
+  152  chmod --help
+  153  chown -help 
+  154  chown --help 
+  155  chown -R clear
+  156  clear
+  157  chown -R student
+  158  chown -R student .
+  159  chown student .
+  160  ls -l
+  161  chown student 
+  162  ls -l
+  163  chown student ~/permissions/*
+  164  ls -l
+  165  chmod --help
+  166  chmod -R ~/permissions/ 704
+  167  chmod ~/permissions/* 704
+  168  man chmod
+  169  chmod -R ~/permissions/* 704
+  170  chmod -R 704 ~/permissions/* 
+  171  ls -l
+  172  unmask
+  173  umask
+  174  umask -S
+  175  echo $user
+  176  echo $USER
+  177  vim /etc/bashrc 
+  178  man sleep
+  179  clear
+  180  sleep
+  181  man sleep
+  182  firefox
+  183  clear
+  184  time
+  185  clrear
+  186  clear
+  187  python print
+  188  apt
+  189  man man
+  190  ?
+  191  clear
+  192  gooogogoogogo
+  193  clear
+  194  tep
+  195  tep()=$(tep=10;echo "$tep")
+  196  tep()=$(tep=10;echo "$tep")`df
+  197  tep()=$($tep=10;echo "$tep")
+  198  tep()=$(tep=10;echo `$tep`)
+  199  tep()=$(tep=10;`echo $tep`)
+  200  tep()=$(`tep=10`;`echo $tep`)
+  201  clear
+  202  type
+  203  type tac
+  204  clear
+  205  alias 
+  206  alias | grep rm
+  207  man rm
+  208  touch fil.txt
+  209  rm -i fil.txt 
+  210  ls
+  211  type openssl
+  212  gpg
+  213  ls -l
+  214  chmod * 
+  215  chmod --help
+  216  chmod -R 777 *
+  217  ll
+  218  chmod -R 533 *
+  219  ll
+  220  chmod -R 335 *
+  221  ll
+  222  chmod -R -X
+  223  chmod -R -x
+  224  chmod -R * -x
+  225  ll
+  226  python -m SimpleHTTPServer 8080
+  227  exit
+  228  ksfa
+  229  clear
+  230  smclient
+  231  smbclient
+  232  u
+  233  ftp
+  234  ftp 
+  235  ftp
+  236  color
+  237  color --help
+  238  bash color
+  239  bash 
+  240  man color
+  241  man bash | color
+  242  man bash 
+  243  clear
+  244  PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32;47m\]\\$\[\e[m\] "
+  245  coolll
+  246  export PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32;47m\]\\$\[\e[m\] "
+  247  lcear
+  248  clear
+  249  history 
+  250  smblient
+  251  smbclient
+  252  ls -latR 
+  253  ls -latR /
+  254  awk
+  255  man awk
+  256  find
+  257  find fil
+  258  find Find
+  259  find /
+  260  find / smb 
+  261  find / >allfiles.txt 2>&1
+  262  cat allfiles.txt 
+  263  echo $shell
+  264  echo $SHELL
+  265  yum
+  266  cldear
+  267  ----
+  268  bash
+  269  python
+  270  read
+  271  read pop=
+  272  read $pop=
+  273  find user* /
+  274  python
+  275  reset
+  276  lol
+  277  lololololo
+  278  clear
+  279  clea
+  280  rl
+  281  clll
+  282  clear
+  283  cat /etc/passwd | awk 
+  284  cat /etc/passwd > listpass.txt; cat listpass.txt|grep root 
+  285  cat /etc/passwd > listpass.txt; cat listpass.txt| tr  
+  286  clear
+  287  cat /etc/passwd > listpass.txt; cat listpass.txt`
+  288  |grep root
+  289  `
+  290  cat /etc/passwd > listpass.txt; cat listpass.txt`
+  291  |grep root`
+  292  cat /etc/passwd > listpass.txt; cat listpass.txt`
+  293  |grep root 
+  294  cleare
+  295  clear
+  296  bash 
+  297  clear
+  298  grep /etc/passwd
+  299  cat /etc/passwd | grep S
+  300  cat /etc/passwd | grep s
+  301  cat /etc/passwd | grep s h
+  302  cat /etc/passwd | grep s,h
+  303  cat /etc/passwd | grep -E s h
+  304  cat /etc/passwd | egrep 's|h'
+  305  clear
+  306  cat /etc/passwd | egrep 's|h'
+  307  egrep --help
+  308  egrep 'a|b|c|d'
+  309  egrep 'a|b|c|d' /
+  310  man egrep
+  311  vi
+  312  0
+  313  000000000
+  314  vi
+  315  clear
+  316  vi 01_hi.sh
+  317  test
+  318  man test
+  319  test -e /etc/pa
+  320  test -e /etc/passwd ; echo $?hwloo
+  321  test -e /etc/passwd ; echo $?
+  322  mkdir testdir;cd testdir
+  323  touch
+  324  file1 file10 file11 file2 File2 File3
+  325  file33 fileAB filea fileA fileAAA
+  326  "file("
+  327  "file 2"ls
+  328  ls
+  329  touch file1 file10 file11 file2 File2 File3
+  330  ls
+  331  touch file33 fileAB filea fileA fileAAA
+  332  touch "file("
+  333  touch "file 2"
+  334  ls file*
+  335  ls file*[0-9]
+  336  ls File
+  337  ls File$$$$
+  338  vim
+  339  vim test.sh 
+  340  sl
+  341  ls
+  342  ps aux |grep vi
+  343  ps aux |grep vim
+  344  killall vim
+  345  rm -rf .01_hi.sh.swp 
+  346  ls
+  347  cd ..
+  348  ll
+  349  vim script 
+  350  yum 
+  351  yum | grep down
+  352  yum | grep install
+  353  yum --installroot 
+  354  yum --installroot firefox
+  355  yum --installroot firefox.exe
+  356  clear
+  357  vim
+  358  vi test4.sh
+  359  echo [ -z ]
+  360  man while
+  361  man 
+  362  man []
+  363  man while
+  364  man for
+  365  test
+  366  man test 
+  367  echo $(seq 0 100)
+  368  echo $(seq A Z)
+  369  echo $(seq 0 9)
+  370  echo {A..}
+  371  echo {A..A}
+  372  echo {A..Z}
+  373  let={A..Z
+  374  let={A..Z}
+  375  echo $let 
+  376  let=`{A..Z}`
+  377  echo $let 
+  378  $let=`{A..Z}`
+  379  let={A..Z}
+  380  cat le
+  381  cat $let 
+  382  echo {A..Z}
+  383  echo `{A..Z}`
+  384  echo ` {A..Z}`
+  385  let={A..Z}
+  386  echo {A..Z}
+  387  echo {A..Z} > let.txt
+  388  cat let.txt 
+  389  cat let.txt | sort 
+  390  cat let.txt | sort -u
+  391  cat let.txt | sort -d
+  392  cat let.txt | sort p
+  393  cat let.txt | sort -d
+  394  lets={A..Z}
+  395  echo $lets 
+  396  lets=`{A..Z}`
+  397  lets=$({A..Z})
+  398  clear
+  399  man unset
+  400  man set
+  401  ifconfig
+  402  python3
+  403  ll
+  404  $path
+  405  echo $path
+  406  echo $PATH
+  407  echo $PATH |ls
+  408  echo $PATH |ll
+  409  ll $PATH
+  410  caat $PATH
+  411  cat $PATH
+  412  ll
+  413  clear
+  414  ls
+  415  cd Downloads/
+  416  ll
+  417  cd /tmp/
+  418  ll
+  419  echo '/tmp/mozilla_student0/atom.x86_64.rpm' 
+  420  cat '/tmp/mozilla_student0/atom.x86_64.rpm' 
+  421  clear
+  422  lsblk
+  423  ps
+  424  lsblk
+  425  clear
+  426  lsusb
+  427  df
+  428  clear
+  429  mout
+  430  mount
+  431  mount /dev/sda
+  432  mount /dev/sd
+  433  clear
+  434  mount /dev/sdb
+  435  ln
+  436  history |ln
+  437  python
+  438  clear
+  439  python3
+  440  sudo yum install ge
+  441  sudo yum install geny xterm.x86_64 
+  442  sudo yum install git 
+  443  ls
+  444  mkdir Python
+  445  mk Python
+  446  mk Pythonls
+  447  ls
+  448  cd Python/
+  449  ls
+  450  git init 
+  451  color
+  452  clear
+  453  ls
+  454  clear
+  455  pwd
+  456  clear
+  457  history 
+  458  clear
+  459  ls
+  460  git add first.py
+  461  git commit -m "Adding first python file"
+  462  git remote add origin https://github.com/RoyBarel/Python_Class.git 
+  463  push -u origin master
+  464  git push -u origin master
+  465  git remote add origin https://github.com/RoyBarel/Python_Class.git 
+  466  git commit -m "Adding #!"
+  467  git remote add origin https://github.com/RoyBarel/Python_Class.git 
+  468  git push -u origin master
+  469  git remote add origin https://github.com/RoyBarel/Python_Class.git 
+  470  git push -u origin master
+  471  git status
+  472  clear
+  473  git status
+  474  ls -la
+  475  git pull 
+  476  git pull origin master 
+  477  clear
+  478  sudo yum install ipython
+  479  ipython
+  480  clear
+  481  histor
+  482  history
+  483  touch `history`>history.txt
+  484  ls
+  485  cat history.txt 
+  486  history>history.txt
