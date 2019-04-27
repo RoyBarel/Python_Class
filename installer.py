@@ -1,27 +1,4 @@
 #!/usr/bin/env python3.6
-
-#########################################################
-#created by RoyBarel
-#Purpose : finelWork - installer
-#Date    : 15/4/2019
-#Version : 1
-#########################################################
-
-#import libs =========================================================
-
-import os
-import sys
-import time
-import re
-
-
-#installing mysql
-os.system('sudo yum install mysql-server')
-try :
-	import pymysql 
-except ModuleNotFoundError:
-	os.system('sudo pip3.6 ins#!/usr/bin/env python3.6
-
 #########################################################
 #created by RoyBarel
 #Purpose : finelWork - installer
